@@ -1,0 +1,14 @@
+@import '/src/styles/variables.scss';
+
+.logo {display: flex; align-items: center; color: $white;
+  &:hover {
+    .logo {
+      &-wrapper {background-color: $blue;
+        .logo-text {color: $black-light;}
+      }
+      &-text {color: $blue;}
+    }
+  }
+  &-wrapper {height: 26px; margin-right: 3px; padding: 0 3px; background-color: $white; color: $black-light; transition: all .3s;}
+  &-text {font-size: $font-size-logo; font-weight: bold; line-height: 26px; color: currentColor; transition: all .3s;}
+}

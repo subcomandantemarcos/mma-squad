@@ -1,0 +1,6 @@
+@import '/src/styles/variables.scss';
+
+.header {width: 100%;background-color: $black-light;
+  &-container {height: 60px; display: flex; align-items: center;}
+  &-logo {margin-right: 50px;}
+}
