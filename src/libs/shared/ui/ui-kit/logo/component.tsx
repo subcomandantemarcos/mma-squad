@@ -1,5 +1,5 @@
-import { AppLink } from '../link/link';
-import styles from './logo.module.scss';
+import { AppLink } from '../link';
+import styles from './component.module.scss';
 
 export function Logo(): JSX.Element {
   return (
