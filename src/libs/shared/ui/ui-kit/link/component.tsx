@@ -3,5 +3,5 @@ import NextLink from 'next/link';
 import { ReactElement } from 'react';
 
 export function AppLink(props: LinkProps<'a'>): ReactElement {
-  return <Link component={NextLink} {...props} />;
+  return <Link component={NextLink} underline='none' {...props} />;
 }
