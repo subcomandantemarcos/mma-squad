@@ -23,9 +23,17 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@/components/*": ["components/*"]
+      "@libs/*": [
+        "src/libs/*"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ]
     }
   },
   "include": [
