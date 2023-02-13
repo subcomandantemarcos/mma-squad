@@ -1,13 +1,19 @@
-import { AppLink } from '../link';
+import { Text } from '@libs/shared/ui/ui-kit/text';
+import Link from 'next/link';
+import { ReactElement } from 'react';
 import styles from './component.module.scss';
 
-export function Logo(): JSX.Element {
+export function Logo(): ReactElement {
   return (
-    <AppLink href='/' className={styles.logo}>
+    <Link href='/' className={styles.logo}>
       <div className={styles['logo-wrapper']}>
-        <span className={styles['logo-text']}>MMA</span>
+        <Text type='span' variant='h1' className={styles['logo-text']}>
+          MMA
+        </Text>
       </div>
-      <span className={styles['logo-text']}>SQUAD</span>
-    </AppLink>
+      <Text type='span' variant='h1' className={styles['logo-text']}>
+        SQUAD
+      </Text>
+    </Link>
   );
 }

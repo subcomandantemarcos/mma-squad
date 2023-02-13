@@ -1,14 +1,15 @@
-@import '/src/assets/styles/variables.scss';
+@import '../../../styles/variables';
 
 .logo {display: flex; align-items: center; color: $white;
+  
+  &-wrapper {height: 26px; margin-right: 3px; padding: 0 3px; background-color: $white; color: $accent; transition: all .3s;}
+  &-text {font-weight: bold; line-height: 26px; color: currentColor; transition: all .3s;}
   &:hover {
     .logo {
-      &-wrapper {background-color: $blue;
-        .logo-text {color: $black-light;}
+      &-wrapper {background-color: $primary;
+        .logo-text {color: $accent;}
       }
-      &-text {color: $blue;}
+      &-text {color: $primary;}
     }
   }
-  &-wrapper {height: 26px; margin-right: 3px; padding: 0 3px; background-color: $white; color: $black-light; transition: all .3s;}
-  &-text {font-size: $font-size-logo; font-weight: bold; line-height: 26px; color: currentColor; transition: all .3s;}
 }
