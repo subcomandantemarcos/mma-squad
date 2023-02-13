@@ -1,4 +1,4 @@
-import { Text } from '@libs/shared/ui/ui-kit/text';
+import { Text } from '@libs/shared/ui/ui-kit/typography/text';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 import styles from './component.module.scss';

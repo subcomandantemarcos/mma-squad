@@ -1,0 +1,7 @@
+@import '../../../../styles/variables';
+
+.link {transition: all 0.3s;
+  &-white {color: $white;
+    &:hover {color: $primary;}
+  }
+}

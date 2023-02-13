@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import React, { ReactElement, ReactHTML } from 'react';
-import styles from './component.module.scss';
+import styles from '../component.module.scss';
 
 export interface TextProps {
   children: React.ReactNode;
