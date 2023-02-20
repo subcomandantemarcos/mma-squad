@@ -1,0 +1,5 @@
+@import '../../styles/variables.scss';
+
+.section {background-color: $white; border-radius: 8px; overflow: hidden;
+  border: 4px solid $black; box-shadow: 4px 4px 0 $black;
+}

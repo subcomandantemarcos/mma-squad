@@ -1,0 +1,4 @@
+.page-container {display: flex; padding-top: 30px; padding-bottom: 30px;
+  &-content {width: 100%;}
+  &-sidebar {min-width: 340px; margin-left: 20px;}
+}

@@ -1,0 +1,17 @@
+@import '../../../shared/styles/variables.scss';
+
+.item {display: block; padding: 20px; background-color: $white; border-radius: 8px; border: 2px solid $black;
+  transition: transform 0.2s;
+
+  &:hover {transform: translate(-4px, -4px); box-shadow: 4px 4px 0 $black;}
+
+  &-container {display: flex;}
+  &-image {position: relative; width: 100%; height: 156px; max-width: 257px; margin-right: 20px;
+    border-radius: 8px; overflow: hidden;
+
+    img {position: absolute; width: 100%; height: 100%; left: 0; top: 0; object-fit: cover;}
+  }
+  &-content {}
+  &-title {margin: 10px 0;}
+  &-tags {}
+}

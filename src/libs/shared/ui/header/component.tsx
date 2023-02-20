@@ -1,18 +1,16 @@
-import { Logo } from '@libs/shared/ui/ui-kit/logo';
-import classNames from 'classnames';
+import { Container } from '@libs/shared/ui/container';
+import { Logo } from '@libs/shared/ui/logo';
 import { ReactElement } from 'react';
 import styles from './component.module.scss';
-
-const classesContext = classNames.bind(styles);
 
 export function Header(): ReactElement {
   return (
     <header className={styles.header}>
-      <div className={classesContext('container', styles['header-container'])}>
+      <Container className={styles['header-container']}>
         <div className={styles['header-logo']}>
           <Logo />
         </div>
-      </div>
+      </Container>
     </header>
   );
 }

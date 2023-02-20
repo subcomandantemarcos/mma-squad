@@ -1,0 +1,5 @@
+@import '../../styles/variables.scss';
+
+.heading {display: flex; justify-content: space-between; padding: 20px; border-radius: 8px;
+  background-color: $white; border: 2px solid $black;
+}

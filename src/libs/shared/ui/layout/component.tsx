@@ -1,4 +1,4 @@
-import { Header } from '@libs/shared/ui/ui-kit/header';
+import { Header } from '@libs/shared/ui/header';
 import { ReactElement, ReactNode } from 'react';
 
 interface LayoutProps {

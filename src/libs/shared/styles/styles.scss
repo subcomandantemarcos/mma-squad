@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 @import './variables';
 
-body {margin: 0; padding: 0; box-sizing: border-box; font: 16px/1.4 $font;}
-.container {max-width: 1160px; padding: 0 30px; margin: 0 auto;}
+body {margin: 0; padding: 0; box-sizing: border-box; font-size: 16px; font-family: $font;
+  background-color: $background;
+}
 
 a {text-decoration: none;}
+
+h1, h2, h3, h4, h5, h6 {padding: 0;}
