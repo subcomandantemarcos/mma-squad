@@ -9,9 +9,15 @@ export function NewsList(): ReactElement {
 
   return (
     <ContentSection headingOptions={{ title: 'NEWS & INSIGHTS' }}>
-      {data.map((key) => (
-        <NewsListItem key={key} className={styles['news-list-item']} />
-      ))}
+      <div className='container'>
+        <div className='row'>
+          {data.map((key) => (
+            <div className='col col-50'>
+              <NewsListItem key={key} className={styles['news-list-item']} />
+            </div>
+          ))}
+        </div>
+      </div>
     </ContentSection>
   );
 }

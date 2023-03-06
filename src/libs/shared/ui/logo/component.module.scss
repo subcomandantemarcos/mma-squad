@@ -2,8 +2,8 @@
 
 .logo {display: flex; align-items: center; color: $white;
   
-  &-wrapper {height: 26px; margin-right: 3px; padding: 0 3px; background-color: $white; color: $accent; transition: all .3s;}
-  &-text {font-weight: bold; line-height: 26px; color: currentColor; transition: all .3s;}
+  &-wrapper {margin-right: 6px; padding: 0 6px; background-color: $white; color: $accent; transition: all .3s;}
+  &-text {color: currentColor; transition: all .3s;}
   &:hover {
     .logo {
       &-wrapper {background-color: $primary;
