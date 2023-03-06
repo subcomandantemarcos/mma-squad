@@ -18,6 +18,7 @@ export function NewsListItem({ className }: NewsListItemProps): ReactElement {
     'https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2023/03/jon-jones-ciryl-gane-ufc-285-12.jpg?w=1000&h=600&crop=1',
     'https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2023/03/jon-jones-ciryl-gane-ufc-285-13.jpg?w=1000&h=600&crop=1',
     'https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2023/03/jon-jones-ufc-285-walkout.jpg?resize=1024,683',
+    'https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2023/03/ciryl-gane-ufc-285.jpg?resize=1024,683',
     'https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2023/03/ciryl-gane-ufc-285.jpg?resize=1024,683'
   ];
 
