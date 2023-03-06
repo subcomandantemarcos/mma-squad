@@ -4,6 +4,9 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   output: "standalone",
+  experimental: { 
+    nftTracing: true 
+  },
   i18n
 };
 
