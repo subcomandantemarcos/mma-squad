@@ -1,4 +1,4 @@
-import { TextProps } from '@libs/shared/ui/ui-kit/typography/text';
+import { TextProps } from '@libs/shared/ui/typography/text';
 import classNames from 'classnames';
 import Link from 'next/link';
 import { AnchorHTMLAttributes, ReactElement, ReactNode } from 'react';

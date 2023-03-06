@@ -5,7 +5,7 @@ import Head from 'next/head';
 import { useMemo } from 'react';
 
 export default function HomePage() {
-  const sidebar = useMemo(() => <SidebarSection headingOptions={{ title: 'Best Bettors' }}></SidebarSection>, []);
+  const sidebar = useMemo(() => <SidebarSection headingOptions={{ title: 'Best Bettors' }}>blabla</SidebarSection>, []);
 
   return (
     <>
