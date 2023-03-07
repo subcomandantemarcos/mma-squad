@@ -1,3 +1,4 @@
+import { FightsList } from '@libs/fight/features/fights-list';
 import { NewsList } from '@libs/news/features/news-list';
 import { PageContainer } from '@libs/shared/ui/page-container';
 import { SidebarSection } from '@libs/shared/ui/sidebar-section';
@@ -17,6 +18,7 @@ export default function HomePage() {
       </Head>
       <main>
         <PageContainer sidebarContent={sidebar}>
+          <FightsList />
           <NewsList />
         </PageContainer>
       </main>

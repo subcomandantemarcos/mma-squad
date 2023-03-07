@@ -1,17 +1,20 @@
-import { TextProps } from '@libs/shared/ui/typography/text';
+import { Text } from '@libs/shared/ui/typography/text';
+import classNames from 'classnames';
 import { ReactElement } from 'react';
+import styles from './component.module.scss';
 
 interface LabelProps {
-  size: 'large' | 'big' | 'medium' | 'small';
+  value: number;
+  size?: 'large' | 'big' | 'medium' | 'small';
+  appearance?: 'blue' | 'green';
 }
 
-export function Label({ size = 'big' }: LabelProps): ReactElement {
-  const textSize: Record<LabelProps['size'], TextProps['variant']> = {
-    large: 'label',
-    big: 'label',
-    medium: 'label',
-    small: 'label'
-  };
-
-  return <div></div>;
+export function Label({ value, size = 'big', appearance = 'blue' }: LabelProps): ReactElement {
+  return (
+    <div className={classNames(styles.label, styles[`label-${appearance}`])}>
+      <Text type='span' variant='label'>
+        {value}
+      </Text>
+    </div>
+  );
 }
