@@ -1,3 +1,6 @@
-.label {
+@import '../../../shared/styles/variables.scss';
 
+.label {width: fit-content; padding: 0px 6px; border-radius: 8px; border: 2px solid $black; overflow: hidden;
+  &-green {background-color: $green;}
+  &-blue {background-color: $blue;}
 }
